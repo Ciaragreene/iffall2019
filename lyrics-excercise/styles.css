@@ -1,0 +1,14 @@
+body
+{
+}
+  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 105%;
+}
+.mainDiv {
+  background-image:"logo.jpg";
+  background-repeat: no-repeat; 
+}
