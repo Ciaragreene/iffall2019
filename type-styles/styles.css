@@ -1,0 +1,32 @@
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color:#33cccc;
+}
+h1{
+	color:#ff6699;
+}
+h2{
+text-transform:uppercase;
+color:#ff6699;
+}
+h3
+{
+font-size:13px;
+color:#ff6699;
+
+}
+strong {
+	font-weight:bold;
+	
+}
+.underline: {
+	text-decoration : underline;/*none|underline| overline| line through*/
+}
+p{
+	/*text-indent:0.5em;*/
+	/*line-height:1;*/
+	/*letter-spacing: 0.1em;*/
+	/*text-align:right;justify, center*/
+}
