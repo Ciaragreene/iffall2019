@@ -22,6 +22,9 @@ h2 {
 .cast li img {
 	width:100%;
 }
+section.cast li {
+	width:25%;
+}
 
 ul.shows>li {
 	
