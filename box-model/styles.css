@@ -1,0 +1,144 @@
+body
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: "Archivo Narrow";
+
+}
+
+section.intro
+{
+	width:100%;
+	height: 480px;
+	background-image:url("lake.jpg");
+	color:white;
+}
+div.intro {
+	text-align: center;
+	padding:155px;
+	padding-top:120px;
+	padding-bottom:150px;
+	margin:0px auto;
+	border-width: 25px;
+}
+h1 {
+	font-size: 80px;
+	margin-bottom:-30px;
+	margin-top:30px;
+	font-family: "Archivo Narrow";
+}
+p.subheader
+{
+	font-size:30px;
+	font-weight:bold;
+	font-family: "Archivo Narrow";
+
+}
+h2{
+	font-size: 40px;
+	text-align:center;
+	margin:0;
+	padding-top:40px;
+	padding-bottom:-100px;
+	font-family: "Archivo Narrow"
+}
+
+div.second
+{
+
+}
+div.third
+{
+	vertical-align: center;
+	margin-top:0px;
+}
+p.box
+{	font-family: "Archivo Narrow"; sans-serif;
+	font-size:18px;
+	padding-left: 100px auto;
+	padding-right:85px auto;
+	line-height: 24.5px;
+	font-stretch: extra-condensed;
+	padding-top:0;
+	width:950px;
+	margin:100px auto;
+	margin-top: 10px;
+	padding-bottom: 50px;
+}
+ul {
+	list-style: none;
+	padding:80px;
+}
+
+li {
+	width:45%;
+	vertical-align: top;
+	padding:10px;
+	display:inline-block;
+}
+
+h3
+{
+	font-size: 40px;
+	text-align:center;
+	margin:0;
+	padding-top:40px;
+	padding-bottom:-100px;
+	font-family: "Archivo Narrow"h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+}
+div.title {
+	display: inline-block;
+	margin-bottom:65;
+	width: 415px;
+	font-weight: 700;
+	font-size:18pt;
+	font-family: "Archivo Narrow";
+}
+
+div.text {
+	font-size:13pt;
+	width:220px;
+	font-family: "Archivo Narrow";
+	display:inline-block;
+}
+
+
+div.last {
+
+	font-family: "Archivo Narrow";
+	font-size:18px;
+	padding-left: 100px auto;
+	padding-right:100px auto;
+	line-height: 24.5px;
+	font-stretch: extra-condensed;
+	padding-top:0;
+	width:950px;
+	margin:100px auto;
+	margin-top: 43px;
+	padding-bottom: 50px;
+}
+
+.img {
+	float:right;
+}
+section.footer {
+
+}
+
+
+
+
+
+
+
+
+
