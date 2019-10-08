@@ -1,0 +1,37 @@
+.first {
+	float:right;
+}
+
+.section2
+{
+	position:relative;
+}
+.second {
+	position:absolute;
+	bottom: 0;
+	right: 0;
+}
+.third
+{
+	right: 0;
+	top: 0;
+	background-color: green;
+	position:fixed;
+}
+.fourth {
+	position:absolute;
+	margin:auto;
+	background-color:red;
+	z-index: 1;
+	bottom:-1400px;
+	left:800px;
+
+}
+.fifth {
+position:absolute;
+margin:auto;
+background-color:black;
+bottom:-1410px;
+left:810px;
+z-index: 0;
+}
