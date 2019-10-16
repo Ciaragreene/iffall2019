@@ -1,0 +1,355 @@
+	body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			a#btn_coke img {
+				width:150px;
+				display:inline-block;
+				margin-top:60px;
+				transition-duration: 1.2s;
+
+			}
+			a#btn_coke:hover img{
+			transform:scale(1.2) rotate(720deg);}
+
+
+			a#btn_colorrun img:first-child{
+				display: block;
+				margin-top: 60px;
+				margin-left: 30px;
+				width: 150px;}
+
+				a#btn_colorrun img:last-child{
+				display:none;
+				margin-top: -170px;
+				margin-left: 30px;
+				width: 200px;}
+
+			a#btn_colorun:hover img:first-child{
+				display:none;}
+
+			a#btn_colorrun:hover img:last-child{
+				display: block;
+				transform:scale(1.3);
+				
+			}
+
+		
+
+				a#btn_tesla img:first-child{
+				display: block;
+				margin-top: 80px;
+				margin-left: 30px;
+				width: 200px;}
+
+				a#btn_tesla img:last-child{
+				display:none;
+				margin-top: 80px;
+				margin-left: 30px;
+				width: 200px;}
+
+			a#btn_tesla:hover img:first-child{
+				transform: scale(5);
+				display: none;
+
+				
+			}
+
+			a#btn_tesla:hover img:last-child{
+				transform: scale(1);
+				display: block;
+				
+			}
+			a#btn_hulk img {
+				width:200px;
+				display:inline-block;
+				margin-top:20px;
+				transition-duration: .3s;
+
+			}
+			a#btn_hulk:hover img{ 
+				width:250px;
+				animation: shake 0.10s;
+  				animation-iteration-count: infinite;
+  				;}
+				/* 
+				I looked up how to add shaking effect on this cite:;
+				source: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
+
+
+				@keyframes shake {
+				  0% { transform: translate(1px, 1px) rotate(0deg); }
+				  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+				  20% { transform: translate(-3px, 0px) rotate(1deg); }
+				  30% { transform: translate(3px, 2px) rotate(0deg); }
+				  40% { transform: translate(1px, -1px) rotate(1deg); }
+				  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+				  60% { transform: translate(-3px, 1px) rotate(0deg); }
+				  70% { transform: translate(3px, 1px) rotate(-1deg); }
+				  80% { transform: translate(-1px, -1px) rotate(1deg); }
+				  90% { transform: translate(1px, 2px) rotate(0deg); }
+				  100% { transform: translate(1px, -2px) rotate(-1deg); }
+				}
+
+					a#btn_insta {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				font-size: 25px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: 0.6s ease;
+			}
+
+			a#btn_insta:hover {
+				color:white;
+				background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+				transform: scale(1.1);
+				transition: 0.3s ease;
+			}
+				a#btn_facebook img:first-child{
+				display: block;
+				margin-top: 80px;
+				margin-left: 30px;
+				width: 200px;}
+
+				a#btn_facebook img:last-child{
+				display:none;
+				margin-top: 35px;
+				margin-left: 30px;
+				width: 200px;}
+
+			a#btn_facebook:hover img:first-child{
+				display: none;
+
+				
+			}
+
+			a#btn_facebook:hover img:last-child{
+				display: block;
+			animation: shake 0.5s;
+  				animation-iteration-count: infinite;}	/* 
+				I looked up how to add shaking effect on this cite:;
+				source: https://www.w3schools.com/howto/howto_css_shake_image.asp*/
+
+
+				@keyframes shake {
+				  0% { transform: translate(1px, 1px) rotate(0deg); }
+				  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+				  20% { transform: translate(-3px, 0px) rotate(1deg); }
+				  30% { transform: translate(3px, 2px) rotate(0deg); }
+				  40% { transform: translate(1px, -1px) rotate(1deg); }
+				  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+				  60% { transform: translate(-3px, 1px) rotate(0deg); }
+				  70% { transform: translate(3px, 1px) rotate(-1deg); }
+				  80% { transform: translate(-1px, -1px) rotate(1deg); }
+				  90% { transform: translate(1px, 2px) rotate(0deg); }
+				  100% { transform: translate(1px, -2px) rotate(-1deg); }
+				}
+				
+
+
+
+			a#btn_army img {
+				width:80px;
+				display:inline-block;
+				margin-top:60px;
+				transition-duration: .2s;
+
+			}
+			a#btn_army:hover img{
+			transform:scale(1.2); 
+			box-shadow:10px 30px 10px rgba(0,0,0,0.3);}
+
+			a#btn_nike img:first-child{
+				display: block;
+				margin-top: 50px;
+				margin-left: 27px;
+				width: 210px;
+				transition-delay: 1.5s}
+
+				a#btn_nike img:last-child{
+				display:none;
+				margin-top: 70px;
+				margin-left: 27px;
+				width: 200px;}
+
+			a#btn_nike:hover img:first-child{
+				transform: scale(5);
+				display: none;
+
+				
+			}
+
+			a#btn_nike:hover img:last-child{
+				transform: scale(1);
+				display: block;}
+
+
+			a#btn_cycles img {
+				width:150px;
+				display:inline-block;
+				margin-top:60px;
+				transition-duration: 1.2s;
+
+			}
+			a#btn_cycles:hover img{
+			transform:scale(1.5) rotate(180deg);}
+
+
+			a#btn_cartoon img{
+				text-decoration: none;
+			}
+
+
+			a#btn_cartoon .c{
+				font-size:50pt;
+				font-family: 'Montserrat 900', sans-serif;
+				font-weight:900;
+				margin-top:110px;
+				text-decoration:none;
+				background-color: black;
+				height:70px;
+				width:70px;
+				display:inline-block;
+				color: white;
+			
+				
+			}
+
+			a#btn_cartoon .n{
+				text-decoration: none;
+				display:inline-block;
+				font-size:55pt;
+				font-family:'Montserrat 900', sans-serif;
+				font-weight:900;
+				height:70px;
+				width:-5px;
+				background-color:white;
+				color:black;
+			
+
+			}
+
+			a#btn_cartoon .c:hover {
+
+				transform:rotate(-30deg)
+				;
+			}
+
+			a#btn_cartoon .n:hover {
+				background-color: white;
+				color:black;
+				transform:rotate(-30deg);
+			}
+
+			a#btn_samsung img:first-child {
+				width:200px;
+				display:inline-block;
+				margin-top:60px;
+				transition-duration: 1.2s;
+			}
+
+			a#btn_samsung img:last-child {
+				width:200px;
+				display:none
+			}
+
+			a#btn_samsung:hover img:first-child{
+				display:none;}
+
+			a#btn_samsung:hover img:last-child{
+				display: block;
+				margin-top:100px;
+				margin-left:24px;
+				transform:scale(1.4);
+				
+			}
+
+			a#btn_garden img {
+				width:150px;
+				display:inline-block;
+				margin-top:70px;
+				transition-duration: 1.2s;
+
+			}
+
+			a#btn_garden:hover img{
+			transform:scale(1.2) ;}
+
+			a#btn_fitbit img {
+				width:150px;
+				display:inline-block;
+				margin-top:70px;
+				transition-duration: .5s;
+
+			}
+
+			a#btn_fitbit:hover img{-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+		 ;}
+
+		 a#btn_wizard img{
+		 		width:150px;
+				display:inline-block;
+				margin-top:70px;
+				transition-duration: .5s;
+		 }
+
+		 	a#btn_wizard:hover img{opacity: 0.2;
+		 		filter:saturate(50);}
+
+		 	 a#btn_ny img{
+		 		width:150px;
+				display:inline-block;
+				margin-top:40px;
+				transition-duration: 2.5s;}
+
+			a#btn_ny:hover img{
+			margin-top:170px ;}
+				 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
