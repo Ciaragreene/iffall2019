@@ -1,0 +1,36 @@
+body {
+	font-family: "aniron";
+	margin:auto;
+	padding:3px 6px 3px 6px;
+	background-color:black;
+	color:white;
+}
+
+
+section {
+  display:inline-block;
+  padding: 20px;}
+
+.desktop img {
+  width: 800px;
+  padding:30px;
+}
+.mobile img{
+  width:400px;
+  padding:30px;
+}
+
+h1 {
+
+	margin-left:20px;
+	padding:30px;
+font-size:25pt;}
+
+h2 {
+	margin-left:20px;
+	margin-bottom:10px;
+padding:30px;}
+
+footer {
+	font-size: 10pt;
+}
